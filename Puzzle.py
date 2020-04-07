@@ -13,14 +13,14 @@
 
 def ask1(score,pp)  : 
     pp = open("Prompts/challenge1/p1.txt","r") 
-    answer = raw_input(pp.read()) 
+    answer = input(pp.read()) 
     if answer == "a" : 
        score = score + 1 
     return score #as int(into)               
 
 def ask2(score, pp2): 
     pp2 =  open("Prompts/challenge1/p2.txt","r") 
-    answer = raw_input(pp2.read()) 
+    answer = input(pp2.read()) 
     if answer == "b" : 
         score = score + 1 
     return score  #s int(binto) 
