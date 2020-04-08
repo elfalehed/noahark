@@ -1,6 +1,6 @@
 #! /usr/bin/env python3 # coding: UTF-8 
 
-# i need to view a tutorial on how to use tkinter (GUI) which will enable me of diving more and maybe providing something better as this game
+# 
 logo =    """
        _   __            __    ___         __  
    / | / /___  ____ _/ /_  /   |  _____/ /__
@@ -10,6 +10,8 @@ logo =    """
                                         By: @KMx404 
 
 """
+
+# I need to work on a better intro 
 intro = """
    Welcome to NoahArk! 
    To get the full cover of this game check the story side. 
@@ -20,3 +22,14 @@ intro = """
 
 print(logo)
 print(intro)
+from Puzzle import ask1 
+from Puzzle import ask2 
+from Puzzle import main
+import os 
+os.system('python Puzzle.py')
+
+
+# i guess there is a problem passing a parameter 
+
+
+

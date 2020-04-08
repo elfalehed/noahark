@@ -11,7 +11,7 @@
    # def __init__(self, score): 
    #     self.score = score
 
-def ask1(score,pp)  : 
+def ask1(score,pp,answer)  : 
     pp = open("Prompts/challenge1/p1.txt","r") 
     answer = input(pp.read()) 
     if answer == "a" : 
@@ -27,18 +27,20 @@ def ask2(score, pp2):
 
 
 # i need to know how to import a function that is inside another function 
-def main():   
-     score = 0 
-     #print(score.ask1()) 
-     pp = open("Prompts/challenge1/p1.txt", "r") 
-     sc1 = ask1(score,pp) 
-     pp2 = open("Prompts/challenge1/p2.txt", "r") 
-     sc2 = ask2(score, pp2) 
-     print("You've got " + str(sc1+sc2) + "/" + "2")
+
+try : 
+    def main():   
+         score = 0 
+         answer = "" 
+         #print(score.ask1()) 
+         pp = open("Prompts/challenge1/p1.txt", "r") 
+         sc1 = ask1(score,pp,answer) 
+         pp2 = open("Prompts/challenge1/p2.txt", "r") 
+         sc2 = ask2(score, pp2,answer) 
+         print("You've got " + str(sc1+sc2) + "/" + "2")
+
+except: 
+    print("Error loaded")
 
 
-if __name__=='__main__':main() 
-
-
-
-
+if __name__=='__main__':main()    
