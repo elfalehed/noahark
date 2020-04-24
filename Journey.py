@@ -24,7 +24,6 @@ print(logo)
 print(intro)
 from Puzzle import ask1 
 from Puzzle import ask2 
-from Puzzle import main
 import os 
 os.system('python Puzzle.py')
 
