@@ -26,7 +26,7 @@ def ask2(score, pp2,answer):
     return score  #s int(binto) 
 
 
-# i need to know how to import a function that is inside another function 
+
 
  
 
