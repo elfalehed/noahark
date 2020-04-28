@@ -5,12 +5,6 @@
 
 # The basic idea is gonna be like this : 
 
-
-#class qess: 
-
-   # def __init__(self, score): 
-   #     self.score = score
-
 def ask1(score,pp,answer)  : 
     pp = open("Prompts/challenge1/p1.txt","r") 
     answer = input(pp.read()) 
@@ -25,18 +19,16 @@ def ask2(score, pp2,answer):
         score = score + 1 
     return score  #s int(binto) 
 
-
-
-
- 
-
 score = 0 
 answer = "" 
 #print(score.ask1()) 
 pp = open("Prompts/challenge1/p1.txt", "r") 
 sc1 = ask1(score,pp,answer) 
+if answer=="a": 
+    print("Yes") 
+else:
+    print("No") 
 pp2 = open("Prompts/challenge1/p2.txt", "r") 
 sc2 = ask2(score, pp2,answer) 
-print("You've got " + str(sc1+sc2) + "/" + "2")
 
-  
+
