@@ -1,6 +1,8 @@
 #! /usr/bin/env python3 # coding: UTF-8 
+# Coded By : Mohamed E.Faleh (@KMx404) 
+# Follow me on github 
 
-# 
+
 logo =    """
        _   __            __    ___         __  
    / | / /___  ____ _/ /_  /   |  _____/ /__
@@ -11,8 +13,9 @@ logo =    """
 
 """
 
-# I need to work on a better intro 
+# i need to work on a better intro 
 intro = """
+  
    Welcome to NoahArk! 
    To get the full cover of this game check the story side. 
    Are you ready to play ? 
@@ -26,7 +29,6 @@ from Puzzle import ask1
 from Puzzle import ask2 
 import os 
 os.system('python Puzzle.py')
-
 
 # i guess there is a problem passing a parameter 
 

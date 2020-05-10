@@ -1,7 +1,7 @@
 #! /usr/bin/env python3  # coding: UTF-8
 # This shit is coded by @KMx404, I guess you can tell by my github repository XD
 #2Do: 
-# - Check how the return statement actually work. Cause the main problem starts over there.
+# Check how the return statement actually work. Cause the main problem starts over there.
 
 # The basic idea is gonna be like this : 
 
@@ -30,5 +30,6 @@ else:
     print("No") 
 pp2 = open("Prompts/challenge1/p2.txt", "r") 
 sc2 = ask2(score, pp2,answer) 
+
 
 
