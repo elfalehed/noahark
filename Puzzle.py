@@ -2,14 +2,27 @@
 
 import os
 
-file_count = sum(len(files) for _, _, files in os.walk(r'Prompts/challenge1/'))
+prompts_count  = sum(len(files) for _, _, files in os.walk(r'Prompts/challenge1/'))
+answers_count = sum(len(files) for _, _, files in os.walk(r'Prompts/answer1/')) 
 i = 1 
-for j in range(file_count) : 
+l = 1 
+score = 0 
+for j in range(prompts_count) : 
        
       pp = open ("Prompts/challenge1/p"+ str(i) +".txt","r") 
       i = i + 1 
       answer = input(pp.read()) 
-      if answer == "a": 
-        print("Fuck ya") 
+      for k in range(answers_count): 
+        aa = open ("Prompts/answer1/a" + str(l) + ".txt","r") 
+        if answer == aa : 
+            score += 1 
+        else: 
+            continue 
+
+
+
+
+
+
 
 
