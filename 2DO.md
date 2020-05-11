@@ -7,7 +7,7 @@
 - the problem in the return statement ? (look for a solution) 
 - Relate the journey and the puzzles 
 - Any needed classes to check  
-
+- dive deep for the questions and the story
 
 
 
