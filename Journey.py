@@ -12,7 +12,6 @@ logo =    """
                                         By: @KMx404 
 
 """
-
 # i need to work on a better intro 
 intro = """
   
@@ -22,12 +21,11 @@ intro = """
 
 """
 
-
 print(logo)
 print(intro)
 
 import os 
-os.system('python Puzzle.py')
+os.system('python3 Puzzle.py')
 
 # i guess there is a problem passing a parameter 
 
