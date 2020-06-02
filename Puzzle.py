@@ -1,6 +1,9 @@
 #! /usr/bin/env python3 # coding: UTF-8 
 
 import os
+from playsound import playsound
+
+
 
 prompts_count  = sum(len(files) for _, _, files in os.walk(r'Prompts/challenge1/'))
 answers_count = sum(len(files) for _, _, files in os.walk(r'Prompts/answer1/')) 
@@ -29,7 +32,7 @@ def puzz():
                 else: 
                     pass
     print('Your score is =',score)    
-
+    playsound('noahark.mp3') 
 
 def main(): 
     puzz() 
