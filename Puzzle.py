@@ -14,22 +14,26 @@ def puzz():
     score = 0 
     for j in range(prompts_count) : 
           pp = open ("Prompts/challenge1/p"+ str(i) +".txt","r") 
-          aa = open ("Prompts/answer1/a"+ str(i) +".txt", "r")     
+          # opening answers was here   
           i = i + 1 
           answer = input(pp.read() )
+          aa = open ("Prompts/answer1/a" + str(i) +".txt", "r") 
           for k in range (e): 
                 if answer == answers[c]: 
                     score += 1 
                     c = c + 1 
                 elif answer != answers[c]: 
-                    pass 
-                else:
-                    pass 
+                    pass
+                elif answers[c] > len(answers): 
+                    break
+                else: 
+                    pass
     print('Your score is =',score)    
 
 
 def main(): 
     puzz() 
+    # i need an errors handler over here 
 
 if __name__=='__main__': main() 
 
