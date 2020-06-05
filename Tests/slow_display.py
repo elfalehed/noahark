@@ -2,6 +2,8 @@
 
 import sys, time, random
 
+
+# Slow Display 
 typing_speed = 50
 def slow_type(str): 
     for letter in str:
@@ -9,7 +11,7 @@ def slow_type(str):
         sys.stdout.flush()
         time.sleep(0.1) 
 
-slow_type("\ntest this gonna need to be a full testing paragraph in order to see the full potential *wrong grammar?*") 
+slow_type("\ntest this gonna need to be a full testing paragraph in order to see the full potential *wrong grammar?") 
 
 
 
