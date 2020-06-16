@@ -3,8 +3,6 @@
 import os
 from playsound import playsound
 
-
-
 prompts_count  = sum(len(files) for _, _, files in os.walk(r'Prompts/challenge1/'))
 answers_count = sum(len(files) for _, _, files in os.walk(r'Prompts/answer1/')) 
 
@@ -34,8 +32,14 @@ def puzz():
     print('Your score is =',score)    
     playsound('noahark.mp3') 
 
+
 def main(): 
-    puzz() 
+    try:
+        puzz() 
+        letter = "test"
+        print(letter, end='')  
+    except: 
+        print("What are you doing?") 
     # i need an errors handler over here 
 
 if __name__=='__main__': main() 
