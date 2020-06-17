@@ -15,9 +15,13 @@ logo =    """
 # i need to work on a better intro 
 intro = """
   
-   Welcome to NoahArk! 
-   To get the full cover of this game check the story side. 
-   Are you ready to play ? 
+   Welcome to @NoahArk ! 
+   NoahArk is an old adventure/terminal game which focus on many ares: Such as math, history and more. (Check the README file) 
+   What you can do know, Is press the Enter key whenever you stop haha, 
+   A lot of multiple Questions gonna be shown. Do your best to answer 'em. 
+   There's a % of you moving into the next stage counting your score. 
+   GET READY !
+    
 
 """
 
