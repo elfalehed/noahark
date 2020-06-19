@@ -1,4 +1,4 @@
-# :videogame: Noah's Ark 
+# :game: Noah's Ark 
 
 You're TheOne, The one who's gonna save the world. The profet sais "You will lead an army in purpose to inlight the world"
 You need to achieve those goals. But you have to be ready first. You're not a warrior, You are a leader, a master 
@@ -18,6 +18,7 @@ Noah's Ark is a game (still under development), Its basic idea is to face few qu
 - Music 
 - Art 
 <br />
+
 ## :memo: What should i do ? 
 This game is still under development as i said. But once it finish you'll be able to play it freely. 
 I'm working on versions the first shot is gonna played on the terminal after cloning the repo and launching the .py file. The next is gonna be developed with GUI
