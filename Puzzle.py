@@ -1,9 +1,13 @@
 #! /usr/bin/env python3 # coding: UTF-8 
 
-import os
-import sys 
+import os, sys  
 import numpy as np 
+# Crypto 
+from cryptography.fernet import Fernet 
+# Sound 
 from playsound import playsound
+# key 
+key = Ferent.generate_key() 
 
 # opening the responsible files, I think i do need a better method! 
 prompts_count1 =  sum(len(files) for _, _, files in os.walk(r'Prompts/challenge1/'))
