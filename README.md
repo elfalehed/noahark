@@ -26,8 +26,6 @@ SO the player could function well and focus more in the game.
 <br />
 
 ## :dart: Things to be done : 
-* Exec an intro & logo 
-* Code aside GUI
-* Work on the story 
-* Import the needed libraries  
-
+* Git secret or encrypyted files 
+* Coupons (I need to think more about that) 
+* Make good puzzles man 
