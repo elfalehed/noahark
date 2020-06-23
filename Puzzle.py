@@ -1,4 +1,5 @@
 #! /usr/bin/env python3 # coding: UTF-8 
+# this is a shitty code 
 
 import os, sys  
 import numpy as np 
@@ -8,6 +9,7 @@ from cryptography.fernet import Fernet
 from playsound import playsound
 # key 
 key = Ferent.generate_key() 
+
 
 # opening the responsible files, I think i do need a better method! 
 prompts_count1 =  sum(len(files) for _, _, files in os.walk(r'Prompts/challenge1/'))
@@ -76,6 +78,13 @@ def main():
     except: 
         print("What are you doing?") 
     # i need an errors handler over here 
+
+
+
+
+
+
+
 
 if __name__=='__main__': main() 
 
