@@ -5,33 +5,31 @@ import random
 import math
 import numpy as np 
 
-intro = """
+score = 0 
+lives = 3 
+i, j, k = 1, 0, 0
+coupons = 1 
 
-00000KKKKKKKKKKKK00OOkkOOOO00KKKKXXXNNNNNNNXXXXXKKKKKKKKKKKK
-000KKKKKKKKKKXXXXXXXXXK00KK0000OO00XXNNNNNNNNNXXXXXXXKKKKKKK
-00KKKKKKKKKXXXXNNNNNNNK0KNWNNNNXKK00KKKKXKKKKKK0KKKKKKKKKKKK
-0KKKKKKKKXXXXNNNNNWWWWWNXXXNWWWWNNXKXKKXNK00OOkkkkkkkkkkkkkO
-KKKKKKKKXXXXNNNNWWWWWWWWWNXXXXXNXXXKO0XXNXXNXXKK0OOkkxxxxxxx
-0KKKKKXXXXNNNNWWWWWWWWWWWWWNXOkOO0KXXXXXXKKXXNWNNNXXK00OOkkx
-kkOOO000KKXXNNNWWWWWWWWWWWWWWWNKdodxxxxxddkkkKWNNNNNXXXXKKK0
-OOOOO0000KKKXXXXNNNNNNNNNNNWWWWNOooddddolloodKWNNNNNXXXXKKKK
-kkkkkkOOOO00000000KKKKK000000KKKkooddodOxlodOXNNNNNNXXXXXXKK
-kkkkkkOOO000000000000OOOOOOOOOOOOkkkxdkOook00KKNNXKKKKKKKK00
-kkkkkkOOO00000000000kolccok00000OdooxkOxlloxO000000OOOOkkkkk
-OOOOOO0000KKKKKK0OOo:dkko'.d0Okoclooc;ckOkxk0000000OOOOkkkkk
-OO00000KKKXXXXXNK0x;dWWWNd,lOxlckWWMNo.:00OOO000OO0OOOOkkkkk
-xkkOO00KKKXXXNNNX0kl:x0K0o'.'cxk0XWWXc.cOOOOO000kdl;lOOkkkkx
-xxxxkkOO00KXXXNNNX0Oxld0OdllcokO00d:,'cO00000000x;':xOkkkkkx
-xxxxkkkkkkO00KXXXK0O0OO0Ol;clllx00xdxO000000000O0OkOOOkkkkkx
-xxxxdddxxkkOO00KXK0OO0OOOkookOOOOOO0000OO00000OOOOOOOkkkkxxx
-ooolccclodk000OOOOOxxk000000000000000OOOOOOOOOOOkkxxdddooddd
-::ccc:::codkOOkxxdlcccoxkOOO00000OOOOOkkxxxddooolcc:::::ccll
-;;;::::::ldxxxoc::::::::codxddddxkkkxlccoollcc:::;;;;;;;;;:c
-;;;;:::coxkxo:;;:;::::::::lo:::lxOko::::clolcc::;;;;;;;;;;;c
-
-"""
-def main(): 
-    print(intro)    
+class questions: 
+    def __init__(self): 
+        pass 
+    def first_question():
+        files_count = sum(len(files) for _, _, files in os.walk(r'Adventures/q/'))
+        for i in range(files_count):
+            with open("/home/mohamed/Desktop/projects/NoahArk/Adventures/q/q"+str(i)+".txt","r") as f:
+                content = f.read()
+                print(content, '\n') 
+                answer = input() 
+                
 
 
-if __name__=='__main__':main() 
+if __name__=='__main__':
+    with open("banner.txt") as f: 
+        banner = f.read()
+        print(banner)
+    questions.first_question()  
+
+
+
+
+
