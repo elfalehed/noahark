@@ -8,7 +8,7 @@ from cryptography.fernet import Fernet
 # Sound 
 from playsound import playsound
 # key 
-key = Ferent.generate_key() 
+#key = Ferent.generate_key() 
 
 
 # opening the responsible files, I think i do need a better method! 
@@ -19,9 +19,9 @@ answer_count2 =  sum(len(files) for _, _, files in os.walk(r'Prompts/answer2/'))
 
 answers1 = ["a", "b", "c","45"] 
 e = len(answers) 
-
 # Puzz1 
 def puzz1(): 
+
     i = 1 
     l = 1 
     c = 0 
@@ -34,18 +34,20 @@ def puzz1():
           aa = open ("Prompts/answer1/a" + str(i) +".txt", "r") 
           for k in range (e): 
                 if answer == answers1[c]: 
+            
                     score += 1 
                     c = c + 1 
                 elif answer != answers1[c]: 
-                    pass
-                elif answers1[c] > len(answers): 
-                    break
+                     pass
+                 elif answers1[c] > len(answers): 
+                      break
                 else: 
                     pass
     print('Your score is =',score)     
 
 # Puzz2 
-def puzz2(): 
+def puzz2():
+
     i = 1 
     l = 1 
     c = 0 
@@ -79,15 +81,27 @@ def main():
         print("What are you doing?") 
     # i need an errors handler over here 
 
+import glob
+import errno
+prompts_count1 =  sum(len(files) for _, _, files in os.walk(r'Prompts/'))
+fc = 0 
+for i in range(prompts_count1): 
+    path ='/home/mohamed/Desktop/projects/NoahArk/Prompts/challenge[i]/*.txt' #note C:
+
+    files = glob.glob(path)
+    for name in files:
+        try:
+            with open(name) as f:
+                for line in f:
+                    print(line.split())
+                fc+=1
+        except IOError as exc:
+            if exc.errno != errno.EISDIR:
+                raise
 
 
 
 
 
 
-
-if __name__=='__main__': main() 
-
-
-
-
+) 
