@@ -18,15 +18,15 @@ class questions:
         for i in range(files_count):
             with open("/home/mohamed/Desktop/projects/NoahArk/Adventures/q/q"+str(i)+".txt","r") as f:
                 content = f.read()
-                print(content, '\n') 
-                answer = input() 
+                print(content) 
+                answer = input("$ ") 
                 
 
 
 if __name__=='__main__':
     with open("banner.txt") as f: 
         banner = f.read()
-        print(banner)
+        print(banner,"BY @KMx404\n") 
     questions.first_question()  
 
 

@@ -1,8 +1,5 @@
-Welcome to Noah's Ark Adventure Game!
-You're goona be given a set of prompts and puzzles. 
-Try to look around and reveal the key to move on! 
+You're goona be given a set of prompts and puzzles.Try to look around and reveal the key to move on 
 LETS START 
 
 >>> You're in a locked room, theres a tv, a toaster and a closet. Theres also a black box. 
 what do you wanna do?
-
