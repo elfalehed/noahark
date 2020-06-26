@@ -18,7 +18,7 @@ answers_count1 = sum(len(files) for _, _, files in os.walk(r'Prompts/answer1/'))
 answer_count2 =  sum(len(files) for _, _, files in os.walk(r'Prompts/answer2/'))  
 
 answers1 = ["a", "b", "c","45"] 
-e = len(answers) 
+e = len(answers1) 
 # Puzz1 
 def puzz1(): 
 
@@ -39,7 +39,7 @@ def puzz1():
                     c = c + 1 
                 elif answer != answers1[c]: 
                      pass
-                 elif answers1[c] > len(answers): 
+                elif answers1[c] > len(answers): 
                       break
                 else: 
                     pass
@@ -81,27 +81,3 @@ def main():
         print("What are you doing?") 
     # i need an errors handler over here 
 
-import glob
-import errno
-prompts_count1 =  sum(len(files) for _, _, files in os.walk(r'Prompts/'))
-fc = 0 
-for i in range(prompts_count1): 
-    path ='/home/mohamed/Desktop/projects/NoahArk/Prompts/challenge[i]/*.txt' #note C:
-
-    files = glob.glob(path)
-    for name in files:
-        try:
-            with open(name) as f:
-                for line in f:
-                    print(line.split())
-                fc+=1
-        except IOError as exc:
-            if exc.errno != errno.EISDIR:
-                raise
-
-
-
-
-
-
-) 

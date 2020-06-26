@@ -19,8 +19,8 @@ class questions:
             with open("/home/mohamed/Desktop/projects/NoahArk/Adventures/q/q"+str(i)+".txt","r") as f:
                 content = f.read()
                 print(content) 
-                answer = input("$ ") 
-                
+                answer = input("$ ")                 
+
 
 
 if __name__=='__main__':
@@ -28,8 +28,5 @@ if __name__=='__main__':
         banner = f.read()
         print(banner,"BY @KMx404\n") 
     questions.first_question()  
-
-
-
 
 
