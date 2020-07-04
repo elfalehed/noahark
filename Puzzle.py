@@ -26,7 +26,7 @@ def puzz1():
     l = 1 
     c = 0 
     score = 0 
-    for j in range(prompts_count) : 
+    for j in range(prompts_count1) : 
           pp = open ("Prompts/challenge1/p"+ str(i) +".txt","r") 
           # opening answers was here   
           i = i + 1 
@@ -34,7 +34,6 @@ def puzz1():
           aa = open ("Prompts/answer1/a" + str(i) +".txt", "r") 
           for k in range (e): 
                 if answer == answers1[c]: 
-            
                     score += 1 
                     c = c + 1 
                 elif answer != answers1[c]: 
@@ -78,6 +77,6 @@ def main():
         print(letter, end='')  
         playsound('noahark.mp3') 
     except: 
-        print("What are you doing?") 
+        print("Error?") 
     # i need an errors handler over here 
 
