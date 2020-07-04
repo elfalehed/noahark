@@ -10,12 +10,12 @@ from playsound import playsound
 # key 
 #key = Ferent.generate_key() 
 
+# opening the needed files, a better method is always something i can appreciate
+prompts_count1 =  sum(len(files) for _, _, files in os.walk(r'Prompts/'))
+for i in range(prompts_count1): 
+    ci = 1
+    
 
-# opening the responsible files, I think i do need a better method! 
-prompts_count1 =  sum(len(files) for _, _, files in os.walk(r'Prompts/challenge1/'))
-prompts_count2 =  sum(len(files) for _, _, files in os.walk(r'Prompts/challenge2/'))
-answers_count1 = sum(len(files) for _, _, files in os.walk(r'Prompts/answer1/')) 
-answer_count2 =  sum(len(files) for _, _, files in os.walk(r'Prompts/answer2/'))  
 
 answers1 = ["a", "b", "c","45"] 
 e = len(answers1) 
@@ -46,8 +46,7 @@ def puzz1():
 
 # Puzz2 
 def puzz2():
-
-    i = 1 
+    i = 0 
     l = 1 
     c = 0 
     score = 0 
