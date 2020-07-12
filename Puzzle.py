@@ -6,15 +6,18 @@ import numpy as np
 # Crypto 
 from cryptography.fernet import Fernet 
 # Sound 
-from playsound import playsound
+#/from playsound import playsound
+#from pydub import AudioSegment
+
+#from pydub.playback import play  
 # key 
 #key = Ferent.generate_key() 
 
 # opening the needed files, a better method is always something i can appreciate
-prompts_count1 =  sum(len(files) for _, _, files in os.walk(r'Prompts/'))
-for i in range(prompts_count1): 
-    ci = 1
-    
+prompts_count1 =  sum(len(files) for _, _, files in os.walk(r'Prompts/challenge1/'))
+promtps_count2 = sum(len(files) for _, _, files in os.walk(r'Prompts/challenge2/'))
+abb = sum(len(files) for _, _, files in os.walk(r'Prompts/answer1/'))
+
 
 
 answers1 = ["a", "b", "c","45"] 
@@ -38,7 +41,7 @@ def puzz1():
                     c = c + 1 
                 elif answer != answers1[c]: 
                      pass
-                elif answers1[c] > len(answers): 
+                elif c > abb: 
                       break
                 else: 
                     pass
@@ -74,8 +77,11 @@ def main():
         puzz1() 
         letter = "test"
         print(letter, end='')  
-        playsound('noahark.mp3') 
-    except: 
+        #playsound('oahark.mp3') 
+        sound = AudioSegment.from_mp3('noahark.mp3') 
+        play(sound) 
+    except ValueError: 
         print("Error?") 
-    # i need an errors handler over here 
+   # i need an errors handler over here 
+if __name__=='__main__':main() 
 
