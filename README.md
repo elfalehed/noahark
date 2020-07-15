@@ -6,6 +6,7 @@ You need to learn and practise all kind of knowledge (Mathematics, Geometry, His
 Because the world's fate is on you now. You're gonna lead an army to fight for what's right. And to spread knowledge and fight ignorance.. 
 (Details in the story) 
 <br />
+
 This game is divided on levels, each level should determine if you can pass to the next one or not. 
 Each level will have a Quiz with a guidline to follow. Each question you answer will enable you to increase your points and move on to the next.
 <br />

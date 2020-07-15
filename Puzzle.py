@@ -71,6 +71,7 @@ def puzz2():
                     pass
     print('Your score is =',score)    
     
+# better defs
 
 def main(): 
     try:
