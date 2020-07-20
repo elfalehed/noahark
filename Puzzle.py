@@ -9,6 +9,8 @@ from cryptography.fernet import Fernet
 #/from playsound import playsound
 #from pydub import AudioSegment
 
+
+
 #from pydub.playback import play  
 # key 
 #key = Ferent.generate_key() 
