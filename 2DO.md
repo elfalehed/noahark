@@ -1,5 +1,6 @@
 # 2DO : 
 <br />
 * Find a way for the keywords <br />
-- Create & generate good prompts <br />
-- Use the coupons thing
+* Create & generate prompts <br />
+* Use the coupons for forward points <br />
+* Added better analyzers 
