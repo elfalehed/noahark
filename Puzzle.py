@@ -9,8 +9,6 @@ from cryptography.fernet import Fernet
 #/from playsound import playsound
 #from pydub import AudioSegment
 
-
-
 #from pydub.playback import play  
 # key 
 #key = Ferent.generate_key() 
@@ -19,7 +17,6 @@ from cryptography.fernet import Fernet
 prompts_count1 =  sum(len(files) for _, _, files in os.walk(r'Prompts/challenge1/'))
 promtps_count2 = sum(len(files) for _, _, files in os.walk(r'Prompts/challenge2/'))
 abb = sum(len(files) for _, _, files in os.walk(r'Prompts/answer1/'))
-
 
 
 answers1 = ["a", "b", "c","45"] 
@@ -87,4 +84,5 @@ def main():
         print("Error?") 
    # i need an errors handler over here 
 if __name__=='__main__':main() 
+
 
