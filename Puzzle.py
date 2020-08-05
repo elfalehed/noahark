@@ -70,7 +70,9 @@ def puzz2():
                     pass
     print('Your score is =',score)    
     
-# better defs
+# Better Functions (Redo) 
+# Better Errors Handler
+
 
 def main(): 
     try:
@@ -84,5 +86,4 @@ def main():
         print("Error?") 
    # i need an errors handler over here 
 if __name__=='__main__':main() 
-
 
