@@ -1,4 +1,4 @@
-#  Noah's Ark 
+# :cyclone: Noah's Ark 
 
 You're TheOne, The one who's gonna save the world. The profet sais "You will lead an army in purpose to inlight the world"
 You need to achieve those goals. But you have to be ready first. You're not a warrior, You are a leader, a master 
