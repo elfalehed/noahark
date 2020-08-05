@@ -1,8 +1,7 @@
 #! /usr/bin/env python3 
-
 import sys, time, random
 
-
+# An introduction needed (Paragraph) 
 # Slow Display 
 typing_speed = 50
 def slow_type(str): 
