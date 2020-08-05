@@ -2,7 +2,6 @@
 # Coded By : Mohamed E.Faleh (@KMx404) 
 # Follow me on github 
 
-
 logo =    """
        _   __            __    ___         __  
    / | / /___  ____ _/ /_  /   |  _____/ /__
@@ -29,9 +28,8 @@ print(logo)
 print(intro)
 
 import os 
-os.system('python3 Puzzle.py')
+os.system('python3 Puzzle.py') 
 
-# i guess there is a problem passing a parameter 
-
+# The Global Function (Handler Of The Handler XD)
 
 
