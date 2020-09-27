@@ -7,8 +7,7 @@ import numpy as np
 from cryptography.fernet import Fernet 
 # Sound 
 #/from playsound import playsound
-#from pydub import AudioSegment
-
+#from pydub import AudioSegment 
 #from pydub.playback import play  
 # key 
 #key = Ferent.generate_key() 
@@ -72,7 +71,11 @@ def puzz2():
     
 # Better Functions (Redo) 
 # Better Errors Handler
-
+"""
+2Do: 
+    - Document the code 
+    - Re:test and make a full 
+"""
 
 def main(): 
     try:
