@@ -74,7 +74,7 @@ def puzz2():
 """
 2Do: 
     - Document the code 
-    - Re:test and make a full 
+    - Re:test and make a full map
 """
 
 def main(): 
