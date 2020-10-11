@@ -1,9 +1,9 @@
 # :cyclone: Noah's Ark 
 
-You're TheOne, The one who's gonna save the world. The profet sais "You will lead an army in purpose to inlight the world"
-You need to achieve those goals. But you have to be ready first. You're not a warrior, You are a leader, a master 
-You need to learn and practise all kind of knowledge (Mathematics, Geometry, History, Geography and more..) 
-Because the world's fate is on you now. You're gonna lead an army to fight for what's right. And to spread knowledge and fight ignorance.. 
+You're TheOne, The one whos gonna save the world. The profet sais "You will lead an army in A purpose of inlighting the world"
+You have some goals to achieve. But you have to be ready first. You're not a warrior, You are a leader, a master 
+You need to learn and practise and be familiar with all of the sciences (Mathematics, Geometry, History, Geography and more..) 
+Because the worlds fate is on you now. You're gonna lead an army to fight for what's right. And to spread knowledge and fight ignorance.. 
 (Details in the story) 
 <br />
 
