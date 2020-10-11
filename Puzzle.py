@@ -7,8 +7,8 @@ import numpy as np
 from cryptography.fernet import Fernet 
 # Sound 
 #/from playsound import playsound
-#from pydub import AudioSegment 
-#from pydub.playback import play  
+from pydub import AudioSegment 
+from pydub.playback import play  
 # key 
 #key = Ferent.generate_key() 
 
@@ -81,12 +81,13 @@ def main():
     try:
         puzz1() 
         letter = "test"
-        print(letter, end='')  
+        print(letter, end='') 
+        print('')
         #playsound('oahark.mp3') 
         sound = AudioSegment.from_mp3('noahark.mp3') 
         play(sound) 
+        print('\n') 
     except ValueError: 
         print("Error?") 
    # i need an errors handler over here 
-if __name__=='__main__':main() 
-
+if __name__=='__main__':main()
