@@ -1,5 +1,7 @@
 # :cyclone: Noah's Ark 
 
+> New Verion & Update on the way.
+
 You're TheOne, The one whos gonna save the world. The profet sais "You will lead an army in A purpose of inlighting the world"
 You have some goals to achieve. But you have to be ready first. You're not a warrior, You are a leader, a master 
 You need to learn and practise and be familiar with all of the sciences (Mathematics, Geometry, History, Geography and more..) 
