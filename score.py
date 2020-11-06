@@ -1,3 +1,4 @@
+# counting scores is a piece of cake.
 class score: 
     def __init__(self, value) : 
         self.value = value
