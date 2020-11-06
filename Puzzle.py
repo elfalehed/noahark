@@ -76,7 +76,6 @@ def puzz2():
     - Document the code 
     - Re:test and make a full map
 """
-
 def main(): 
     try:
         puzz1() 
